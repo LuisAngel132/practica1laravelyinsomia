@@ -1,0 +1,54 @@
+DELETE
+-----------------------------------------
+Eliminar personas
+localhost:8000/api/epersona/1
+-----------------------------------------
+ELIMINAR PRODUCTOSCONSUCOMENTARIO
+localhost:8000/api/eproducto/1
+-----------------------------------------
+PUT
+-----------------------------------------
+ACTUALIZAR PRODUCTO
+localhost:8000/api/aproducto/1
+{
+	"producto":"limon",
+	"comentario":"sabe rico",
+	"iddepersona":"1"
+}
+-----------------------------------------
+ACTUALIZAR PERSONA
+localhost:8000/api/apersona/1
+
+{
+	"nombre":"abrahan",
+		"appaterno":"jimenez",
+	"apmaterno":"rodriguez"
+}
+-----------------------------------------
+POST
+-----------------------------------------
+INSERTAR PRODUCTO
+localhost:8000/api/producto
+{
+	"producto":"sandia",
+	"comentario":"sabe rica",
+	"iddepersona":"3"
+	
+}
+-----------------------------------------
+INSERTAR PERSONAS
+localhost:8000/api/persona
+{
+	"nombre":"felipe",
+	"appaterno":"sandoval",
+	"apmaterno":"osvaldo"
+}
+-----------------------------------------
+GET
+-----------------------------------------
+verproductoscomentados o por persona los que comento
+localhost:8000/api/vproducto/2
+-----------------------------------------
+VER PERSONAS
+localhost:8000/api/vpersona
+
